@@ -109,7 +109,9 @@ unzip awscliv2.zip
 sudo ./aws/install
 sudo ./aws/install --bin-dir /usr/local/bin --install-dir /usr/local/aws-cli --update
 
-
+# Here to check if every thing is working properly or not, just run command:
+aws configure
+# after this enter aws_key and secret key.
 
 
 
