@@ -6,9 +6,11 @@ from hate.components.data_transforamation import DataTransformation
 from hate.components.model_trainer import ModelTrainer
 from hate.components.model_evaluation import ModelEvaluation
 from hate.components.model_pusher import ModelPusher
+
 from hate.entity.config_entity import (DataIngestionConfig,
                                        DataTransformationConfig,
                                        ModelTrainerConfig,
+                                       ModelEvaluationConfig,
                                        ModelPusherConfig)
 
 
@@ -18,11 +20,15 @@ from hate.entity.artifact_entity import (DataIngestionArtifacts,
                                          ModelEvaluationArtifacts,
                                          ModelPusherArtifacts)
 
+import os
+
 class TrainPipeline:
     def __init__(self):
         self.data_ingestion_config = DataIngestionConfig()
         self.data_transformation_config = DataTransformationConfig()
         self.model_trainer_config = ModelTrainerConfig()
+        self.model_evaluation_config = ModelEvaluationConfig()
+        self.model_pusher_config = ModelPusherConfig()
 
     
 
@@ -106,6 +112,7 @@ class TrainPipeline:
     
 
     def run_pipeline(self):
+
         logging.info("Entered the run_pipeline method of TrainPipeline class")
         try:
             data_ingestion_artifacts = self.start_data_ingestion()

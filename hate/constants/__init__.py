@@ -1,5 +1,4 @@
 import os
-
 from datetime import datetime
 
 # Common constants
@@ -9,7 +8,6 @@ BUCKET_NAME = 'hate-speech-bucket007'
 ZIP_FILE_NAME = 'dataset.zip'
 LABEL = 'label'
 TWEET = 'tweet'
-
 
 # Data ingestion constants
 DATA_INGESTION_ARTIFACTS_DIR = "DataIngestionArtifacts"

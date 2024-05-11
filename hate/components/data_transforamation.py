@@ -102,11 +102,12 @@ class DataTransformation:
     def initiate_data_transformation(self) -> DataTransformationArtifacts:
         try:
             logging.info("Entered the initiate_data_transformation method of Data transformation class")
-            self.imbalance_data_cleaning()
-            self.raw_data_cleaning()
+            # self.imbalance_data_cleaning()
+            # self.raw_data_cleaning()
             df = self.concat_dataframe()
             df[self.data_transformation_config.TWEET]=df[self.data_transformation_config.TWEET].apply(self.concat_data_cleaning)
-
+            print(df.head())
+            print("............................ABOVE IS MY CONCATENATED AND CLEANED CODE............................")
             os.makedirs(self.data_transformation_config.DATA_TRANSFORMATION_ARTIFACTS_DIR, exist_ok=True)
             df.to_csv(self.data_transformation_config.TRANSFORMED_FILE_PATH,index=False,header=True)
 

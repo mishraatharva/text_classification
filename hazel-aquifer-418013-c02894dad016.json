@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "hazel-aquifer-418013",
+  "private_key_id": "c02894dad016db5a6664c41bef4b05e9358f5bf7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDJIGn8sZulqut+\nQR4jUYI2OjVRRwXKConwGGALBvs5MIjxskS5DsIkVVQ0onBJO2fKw/D9Jp86EsT6\ns8jcvnfC+Kwq7ZGt6daEiBTNun58FxyWcwK9dhdGpT1A7gsATOSzJJlpRvT69XhW\ngS+yG/NHxw1OXwr0pYpdav2UJIA/Z3ifwfv9VoMtahSp4rOrLAjQVyLLlHp/cnWd\nlLkT4T8Mi0JJLKyL4/pViDOzxw2HWpYiMHiAoAk5EBzmwaYdfMLgazGjYmQ7syIE\nVzMM82MAspwlSClcFGkfsGGV3jZAbLMs1b2KplSvnwc0GR5yfMig4AuSwU4aRc5T\nLbV7nQEvAgMBAAECggEAXr9r3pRm4BUUSk5v3bCEuHoUav0bz5HGaHp7KEa6K7df\nFAlokYtPzyD5gbAyWHVpUF6dFQzQPuHftMDkM4Vw0sMmDDUNh1Hc8mNO9ZnRAzE6\nEPAOTuWmUmv+XqulOBeBN5lawfsg5makMZA7QVskcOBnNs/UT+r6M0b3PYYyems0\nn4d49VCPISl/vmnHEeQ77H55XazpaCjSRs/6mz0fcSazCxM9Q4KO4j88y5oGoTkY\naqzieNvQR7ZgzaBRpxC+wVrQBnxHbitkyTkliyj87I9TcvDzmj8otTv+j+v9UNmA\nQUr2UdjZCTDw7TWAgArNpycnbRjY+O9P+85bCf3l3QKBgQDuLn9a9ogXhi66ep8C\nzxAGXX5ZB5ju/Cl8yDDO8wIKG/Kb4Fbw6D6SpNM8ATnP2SpAoG7P65vHParU5EhN\nXgL5gyIfWB9n8HkiuzIzYCoVd4fUmEa3IsxZKBJHFqm5teFgPW1KtAhy3abezkOJ\n38mB4sIk5DHDaE8PByFq8fZFcwKBgQDYLEM3xE4dwu4MNES1/bfWLi/EZ1KMDAy9\ne7DG6kBR7iDWuFGXJg73SXBF4QVhX/+bAeBUPCAFozKQUbO9dUwXZg218uJRucm+\n9/el6q5UIKIYga4DQXjC1j2zDD7lHra28P1toONRyACwbvfqVwd9zR1DEGLjqjiT\ny/j/SBvGVQKBgBzBME7jBHsSkAGjXB8SsHSURPSqniP7/WY7JOlXHR/rT9bRtq1O\n3H8Htxi/bSNSrG8w7y/a2eur3jvlc3UjrGhDFJOEKAZ8WaN/xge9zFbbH2LjH2Zs\npQ7+b3Z1nff1pUfhIpiqM3rql4K+lBjJE6LCpX2erwNQTHsb+UTYAUtRAoGBAJog\nBNTP63ogrySYZ5zyBo54Y6o+mIYtWTAH7mQERFOl2lf9Fn8TrXv2KkxIQVPJ5C4a\nSl0EeThLwRNQjTw5U0UjiAb/4wit0/+KQFFVX3GvyqJ6Yx0DIxyXL2pnArjNCyyn\n6aiuGyUF2ifxFmVII5k4EvLrzfXQOYJ23VL1kIf5AoGBAMrkhcm0ICyQRV+3LWC1\n9dtGNZVSHosmI8Yzf+t4X7PCsChVu72Xng40davZjtYCbt4FHooTS3KHURO6zG1X\nxu3ULvzanUyA3pnOe1yzDGtVx7fsqnTRs5CkhPqy0lEtAR4YBPn9k6n7BOZl9HGz\nz7rok6I+bAjV6OTapMbRsA+U\n-----END PRIVATE KEY-----\n",
+  "client_email": "text-classification-service-ac@hazel-aquifer-418013.iam.gserviceaccount.com",
+  "client_id": "107430342218104563886",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/text-classification-service-ac%40hazel-aquifer-418013.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
