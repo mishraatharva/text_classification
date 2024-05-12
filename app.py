@@ -46,7 +46,3 @@ async def predict_route(text):
 logging.basicConfig(stream=sys.stdout.buffer, level=logging.INFO)
 if __name__=="__main__":
     uvicorn.run(app, host=APP_HOST, port=APP_PORT)
-
-
-    
-
